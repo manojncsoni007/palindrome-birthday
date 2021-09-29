@@ -210,7 +210,7 @@ showBtn.addEventListener('click', () => {
             const [counter, nextDate] = getNextPalindromeDate(date);
             const [counter1, previousDate] = getPreviousPalindromeDate(date);
             outputBox.innerHTML = `<p>The Next palindrome date is <span>${nextDate.day}-${nextDate.month}-
-            ${ nextDate.year}</span>, you missed it by ${counter} days 🥺</p><br>
+            ${nextDate.year}</span>, you missed it by ${counter} days <span>🥺</span></p><br>
             <p>The Previous Palindrome date is <span>${previousDate.day}-${previousDate.month}-${previousDate.year}</span></p>`;
         }
     }
